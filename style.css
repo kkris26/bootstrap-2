@@ -46,10 +46,10 @@
 .margin {
   margin-top: 100px;
 }
-.margin-b{
+.margin-b {
   margin-bottom: 100px;
 }
-.padding{
+.padding {
   padding-top: 0px;
 }
 /* margin-top */
@@ -101,11 +101,11 @@
   color: var(--side-color);
   font-weight: 700;
 }
-.home .h1{
+.home .h1 {
   --animate-delay: 0.5s;
 }
-.home .btn-home{
-    --animate-delay: 1.5s;
+.home .btn-home {
+  --animate-delay: 1.5s;
 }
 /* home */
 
@@ -427,12 +427,11 @@
   font-family: var(--main-font);
   color: white;
 }
-.footer ul{
-    padding: 0 !important;
+.footer ul {
+  padding: 0 !important;
 }
 .footer ul li {
   list-style-type: none;
-
 }
 .footer h3 {
   font-size: 18px;
@@ -450,29 +449,34 @@
   font-size: 28px;
   color: var(--side-color);
 }
-.footer .service{
-    height: fit-content;
+.footer .service {
+  height: fit-content;
 }
-.footer .text-info p{
+.footer .text-info p {
   font-size: 14px;
   font-family: var(--main-font);
   color: white;
 }
-.footer .Address a{
+.footer .Address a {
   color: var(--side-color);
 }
-.footer .email{
+.footer .email {
   font-size: 16px;
 }
-.footer .phone{
+.footer .phone {
   font-size: 16px;
 }
 
-.footer .copy p{
+.footer .copy p {
   font-size: 10px;
   color: white;
   font-family: var(--main-font);
   text-align: center;
+}
+.footer .copy span {
+  color: var(--side-color);
+  font-family: var(--main-font);
+  font-weight: 800;
 }
 /* footer */
 
@@ -581,7 +585,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .padding{
+  .padding {
     padding-top: 200px;
   }
   .banner-1 img {
@@ -688,21 +692,16 @@
   /* contact */
 
   /* footer */
-  .footer{
-      border-radius: 50px 50px 0px 0px;
+  .footer {
+    border-radius: 50px 50px 0px 0px;
   }
-  .footer .copy p{
-  font-size: 14px;
-  color: white;
-  font-family: var(--main-font);
-  text-align: center;
-}
-  /* footer */
-  .footer .copy span{
-    color: var(--side-color);
+  .footer .copy p {
+    font-size: 14px;
+    color: white;
     font-family: var(--main-font);
-    font-weight: 800;
+    text-align: center;
   }
+  /* footer */
 }
 
 @media screen and (min-width: 1200px) {
